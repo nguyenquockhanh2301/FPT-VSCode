@@ -1,0 +1,66 @@
+body {
+    margin: 0px; padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    /* width: 100%; */
+    background-color: #D9D9D9;
+    padding-top: 24px;
+    padding-bottom: 24px; /* Adjust this value as needed */
+    display: flex;
+}
+
+.logo {
+    float:left;
+    font-size: 16px;
+    padding-right: 240px;
+}
+
+.search {
+    --padding: 14px;
+
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background: #f6f6f6;
+    width: 600px;
+    transition: box-shadow 0.25s;
+}
+
+.search-input {
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    color: #333333;
+    margin-left: 14px;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+}
+
+.search-input:: ::placeholder {
+    color: rgba(0, 0, 0, 25);
+}
+
+.search:focus-within {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
+}
+.login {
+    padding-left: 240px;
+    float:right;
+    font-size: 24px;
+    padding-top: 24px;
+    display: flex;
+}
+
+li, ul {
+    display: flex;
+    margin-right: 20px;
+}
+
+.promotion_item {
+}
